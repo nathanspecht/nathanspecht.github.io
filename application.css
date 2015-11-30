@@ -8,6 +8,16 @@ h3 {
   margin-bottom: 5px;
 }
 
+a {
+  text-decoration: none;
+  font-size: 15px;
+  color: gray;
+}
+
+a:hover {
+  color: black;
+}
+
 #projects-section {
   width: 760px;
 }
@@ -23,9 +33,13 @@ h3 {
   margin-right: 10px;
   background-position: 50% 25%;
   background-size: cover;
-  border: 1px solid black;
+  border: 1px solid #CCCCCC;
   border-radius: 3px;
   float: left;
+}
+
+#project-image:hover {
+  border: 1px solid #989898;
 }
 
 #project-description {
@@ -34,4 +48,16 @@ h3 {
   width: 300px;
   color: #B1B1B1;
   font-size: 13px;
+}
+
+.toggle-link {
+  color: gray;
+}
+
+.toggle-link:hover {
+  color: black;
+}
+
+.hidden {
+  display: none;
 }
